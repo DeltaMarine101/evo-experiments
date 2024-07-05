@@ -1,0 +1,11 @@
+# ./.tmuxinator.yml
+
+name: evo-experiments
+root: <%= ENV["PWD"] %>
+
+windows:
+  - backend:
+    - cd backend && flask --app main run
+  - frontend:
+    - cd frontend && npm run dev
+  - blank-term:

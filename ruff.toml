@@ -1,0 +1,5 @@
+[format]
+quote-style = "single"
+
+[lint]
+unfixable = ["F401"]

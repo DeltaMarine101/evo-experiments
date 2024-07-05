@@ -1,0 +1,1 @@
+tmuxinator stop .tmuxinator.yml
