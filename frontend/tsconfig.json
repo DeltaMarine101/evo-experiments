@@ -9,7 +9,12 @@
     }
   ],
   "compilerOptions": {
+    "types": ["element-plus/global"],
     "noImplicitAny": false,
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["frontend/src/*"]
+    }
   },
-  "allowJs": true,
+  "allowJs": true
 }

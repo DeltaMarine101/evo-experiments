@@ -5,7 +5,7 @@ root: <%= ENV["PWD"] %>
 
 windows:
   - backend:
-    - cd backend && flask --app main run
+      - cd backend/src && flask --app main run
   - frontend:
-    - cd frontend && npm run dev
+      - cd frontend && npm run dev
   - blank-term:
